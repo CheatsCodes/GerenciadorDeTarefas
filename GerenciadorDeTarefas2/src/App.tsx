@@ -1,16 +1,7 @@
+import { List } from "./shared/components/GerenciadorDeTarefas";
+import GerenciadorDeTarefas from "./shared/components/GerenciadorDeTarefas";
 import "./App.css";
-
-interface List {
-  id: number;
-  date: Date;
-  startTime: string;
-  finalTime: string;
-  title: string;
-  description: string;
-  color: string;
-}
-
-const mock: Array<List>[] = [
+const mock: Array<List> = [
   {
     id: 0,
     date: new Date("2025-01-20T08:30:00"),
@@ -50,11 +41,7 @@ const mock: Array<List>[] = [
 ];
 
 function App() {
-  return (
-    <>
-      <p>Gerenciador de Tarefas</p>
-    </>
-  );
+  return <GerenciadorDeTarefas list={mock}></GerenciadorDeTarefas>;
 }
 
 export default App;
