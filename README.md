@@ -30,7 +30,7 @@ Um aplicativo simples para gerenciar tarefas, desenvolvido com **React**, **Type
 
 ### Instalação
 ```bash
-git clone https://github.com/seu-usuario/task-manager.git
-cd task-manager
+git clone https://github.com/CheatsCodes/GerenciadorDeTarefas.git
+cd GerenciadorDeTarefas
 npm install
 npm run dev
